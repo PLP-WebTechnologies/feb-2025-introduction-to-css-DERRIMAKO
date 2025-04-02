@@ -1,6 +1,6 @@
 /* Apply a background color to the body and set the font */
 body {
-    background-color: #abe830;  /* Light grey background */
+    background-color: #555555;  /* Light grey background */
     font-family: 'Arial', sans-serif;  /* Set font to Arial */
     font-size: 18px;  /* Increase font size for better readability */
     margin: 0;
@@ -10,18 +10,18 @@ body {
 /* Style the main heading */
 h1 {
     text-align: center;  /* Center-align the heading */
-    color: #333;  /* Dark text color */
+    color: #83010179;  /* Dark text color */
     margin-top: 50px;  /* Add space above the heading */
 }
 
 /* Class selector for paragraphs */
 .highlight {
-    color: #007BFF;  /* Blue text color */
-    padding: 15px;  /* Add padding around the paragraph */
-    border: 2px solid #007BFF;  /* Blue border around paragraph */
-    border-radius: 5px;  /* Rounded corners for the border */
-    width: fit-content;  /* Adjust width to fit the content */
-    margin: 20px auto;  /* Center the paragraph and add space around */
+    color: #007BFF; 
+    padding: 15px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 20px auto;
 }
 
 /* ID selector for the second paragraph */
