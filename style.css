@@ -1,0 +1,44 @@
+/* Apply a background color to the body and set the font */
+body {
+    background-color: #abe830;  /* Light grey background */
+    font-family: 'Arial', sans-serif;  /* Set font to Arial */
+    font-size: 18px;  /* Increase font size for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;  /* Center-align the heading */
+    color: #333;  /* Dark text color */
+    margin-top: 50px;  /* Add space above the heading */
+}
+
+/* Class selector for paragraphs */
+.highlight {
+    color: #007BFF;  /* Blue text color */
+    padding: 15px;  /* Add padding around the paragraph */
+    border: 2px solid #007BFF;  /* Blue border around paragraph */
+    border-radius: 5px;  /* Rounded corners for the border */
+    width: fit-content;  /* Adjust width to fit the content */
+    margin: 20px auto;  /* Center the paragraph and add space around */
+}
+
+/* ID selector for the second paragraph */
+#para-two {
+    color: #FF5733;  /* Red text color */
+    font-size: 16px;  /* Smaller font size */
+    font-style: italic;  /* Italicize the text */
+    margin-top: 30px;  /* Add space above the paragraph */
+    padding: 10px;
+}
+
+/* Style the image */
+.sample-image {
+    width: 100%;  /* Make the image responsive */
+    max-width: 400px;  /* Set maximum width for the image */
+    display: block;  /* Make the image block-level */
+    margin: 30px auto;  /* Center the image horizontally with margin */
+    border: 2px solid #ccc;  /* Add a border around the image */
+    border-radius: 8px;  /* Round the corners of the image */
+}
